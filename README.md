@@ -12,10 +12,7 @@ The first round of tests being opened are EH, the bulk of which are SEH tests.  
 
 Quick Start
 -----------
-In the EH sub directory is the C++EH torture test for object destructors.  We have more C++EH tests but there's also a large body of tests out in the community already.  This particular test targets object destructors and is one of the milestone type tests used for validating new EH work.
-In the SEH sub directory is a set of SEH tests.  The sehxxxx.c tests are actually factored out sections of the xcpt4u.c test and are included for convenience of implementers as these cut down tests are easier to debug.  
-
-There are two main sub directories in the compiler-tests directory
+There are two main sub directories in the compiler-tests directory.  The descriptions of what they contain are listed below.  Overtime we expect to open more tests in these directories as well as add new areas of testing.
 
 ####EH  (C++EH)
 Only one test is included here now, ihateeh.cxx.  This tests object destructor semantics on Windows.  Compile the file with usual flag combinations (MSVC) and compare with the output file ihateeh.out.correct.  
