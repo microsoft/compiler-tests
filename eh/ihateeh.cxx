@@ -164,7 +164,7 @@ A test() {
   return a1 + A() + a2 + A() + a3 + a4;
 }
 
-void main() {
+int main() {
   int i;
 
   /* Call test(), with a different ctor/dtor throwing each time */

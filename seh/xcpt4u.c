@@ -923,7 +923,7 @@ VOID Test88(_Inout_ PLONG Counter)
   finally { *Counter += 1; }
 }
 
-VOID main(int argc, char *argv[])
+int main(int argc, char *argv[])
 
 {
 
