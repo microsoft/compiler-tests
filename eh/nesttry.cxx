@@ -17,7 +17,7 @@ void foo()
     throw 1;
 }
 
-void main()
+int main()
 {
     try{
 	try{

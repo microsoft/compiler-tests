@@ -28,13 +28,13 @@ A foobar()
     throw 1;
 }
 
-void foo(A& a, int i)
+void foo(const A& a, int i)
 {
     A a1 = a;
     bar(a1);
 }
 
-void main()
+int main()
 {
     try {
 	A a;

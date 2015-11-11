@@ -45,7 +45,7 @@ void foo(int level)
     }
 }
 
-void main(void)
+int main(void)
 {
     int n;
     LARGE_INTEGER freq,start,end;

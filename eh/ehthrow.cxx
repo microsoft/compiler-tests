@@ -474,7 +474,7 @@ void test10()
     throw A();
 }
 
-void main()
+int main()
 {
     int i;
     
