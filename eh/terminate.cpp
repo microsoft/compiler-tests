@@ -30,7 +30,7 @@ public:
         if (FGenSEHException)
         {
             printf("generating access violation (SEH)\n");
-            *(char*)(0) = 0; // Uh, EHa, don't you think?
+            *(volatile char*)(0) = 0; // Uh, EHa, don't you think?
         }
         else
         {
